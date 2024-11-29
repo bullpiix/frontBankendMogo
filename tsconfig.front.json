@@ -1,0 +1,10 @@
+
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./front",
+    "rootDir": "./src/front"
+  },
+  "include": ["src/front/**/*"],
+  "exclude": ["node_modules"]
+}
